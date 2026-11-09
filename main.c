@@ -16,7 +16,7 @@ int main(void)
         printf("C");
     else if (input > 0)
         printf("D");
-    else (input==0)
+    else 
         printf("/");
     return 0;
 }
