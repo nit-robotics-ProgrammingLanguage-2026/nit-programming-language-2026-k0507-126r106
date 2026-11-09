@@ -4,7 +4,7 @@ int main(void)
 {
     int input;
     scanf("%d", &input);
-    if (input >= 90 && input <= 100)
+    if (input >= 90 && input < 101)
         printf("AA");
     else if (input >= 80)
         printf("A");
